@@ -1,7 +1,7 @@
-# Learn Java From Scratch
-
+# <p align="center">Learn Java From Scratch</p>
+---
 ## Contents
-
+---
 1. Java Basics
   - Background of Java
   - Why do we need Programming Languages
