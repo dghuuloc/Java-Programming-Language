@@ -829,7 +829,7 @@ public class Main {
     }
 }
 ```
-> __Note__: 
+> [!NOTE]
 > All the methods inside an interface are implicitly `public` and all fields are implicitly `public static final`.
 
 ### Overriding and Overloading
@@ -844,7 +844,7 @@ public class Main {
 
   - _Overriding_: means having two methods with the same method name and parameters (i.e., method signature). One of the methods is in the parent class and the other is in the child class. Overriding allows a child class to provide a specific implementation of a method that is already provided its parent class.
 
-> __Note__: 
+> [!NOTE]
 > We cannot override the methods declared as `final` and `static`
 > We should always override `abstract methods` of superclass
 
