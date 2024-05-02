@@ -440,11 +440,11 @@ A chart of the commonly used specifiers are as follows:
 
 ``` java
 if (condition_1) {
-
+	// block of code to be executed if condition_1 is true
 } else if (condition_2) {
-
+	// block of code to be executed if the condition_1 is false and condition_2 is true
 } else {
-
+	// block of code to be executed if the condition_1 is false and condition_2 is false
 }
 ```
 
