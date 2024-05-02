@@ -518,8 +518,8 @@ public static void exit(int status);
 - `exit(0`) - Indicates successful termination
 - `exit(1)` - Indicates unsuccessful termination
 - `exit(-1)` - Indicates unsuccessful termination with Exception
-
-> __Note__: Any non-zero value as status code indicates unsuccessful termination.
+> [!NOTE]
+> Any non-zero value as status code indicates unsuccessful termination.
 
 ## Package
 
@@ -600,12 +600,12 @@ We have used the `==` operator and `equals()` method to check if two strings are
 ### Access Modifiers
 There are four access modifiers avaliable in Java, used to set access levels for `classes`, `constructor`, `methods`, `variables`
 
-| MODIFIER    | DESCRIPTION |
-|--------------|:---------:|
-| `public`   |  declarations are visible everywhere  |
-| `protected`   |  declarations are visible within the package or all subclasses  |
-| `default`   |  declarations are visible only within the package (package private) |
-| `private`   |  declarations are visible within the class only  |
+| MODIFIER     | DESCRIPTION |
+|--------------|:----------------------------------------------------------------------|
+| `private`    | _private_ means that only code within the same class can access the private thing. Keep in mind it means private to the class, not private to the object  |
+| `default`    | _default_ access means that only code within the same package as the class with the default thing can access the default thing (package private) |
+| `protected`  | _protected_ works just like default (code in the same package has access), EXCEPT it also allows subclasses outside the package to inherit the protected thing  |
+| `public`     | _public_ means any code anywhere can access the public thing (class, variable, mehtod, constructor, etc.)  |
 
 - For __classes__, we can use either `public` or `default`
 - For __fields__, __methods__, __constructors__, we can use `public`, `private`, `default`, `protected`
