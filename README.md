@@ -239,7 +239,6 @@ Some Java Escape sequences:
 - `\\` backslash
 
 ## Variable
-
 Variable is name for a location in memory
 
 - Static variable: belong to its class, and it is shared by all class instances, with the same values
@@ -249,17 +248,14 @@ Variable is name for a location in memory
 - Local Variable: is created within a method or instance in a {} block. Its scope is limited within the block.
  
 ### Declaration variable
-
 Variable must be declared by specifying the variabel's name and the type of information that it will hold
 
 ### Intilization variable
-
 Variable can be given an initial value in the declaration
 
 When a variable is referenced in a program, its current value is used
 
 ### Assignment
-
 An assignment statement changes the values of a variable
 
 The assignment operator is the `=` sign
@@ -274,7 +270,6 @@ The assignment operator is the `=` sign
  You can only assign a value to a variable that is consistent with the variable's declared type. 
 
 ### Constants
-
 A contant is an identifier that is similar to a variable except that it hold the same value during its entire existence
 
 As the name implies, it is constant, not variable
@@ -284,7 +279,6 @@ The compiler will issue an error if you try to change the value of a constant
 In Java, we use the `final` modifier to declare a constant
 
 ```java 
-
 final int MIN_HEIGHT = 69;
 ```
 
@@ -297,7 +291,7 @@ accessModifier methodName(dataType... args) {
 }
 ```
 
-> __Note__: 
+> [!NOTE] 
 > - While defining method signature, always keep varargs at last
 > - A method can have only one varargs parameter
 
@@ -328,7 +322,6 @@ class Main {
 ```
 
 ## Operators
-
 ### Arithmetic Operators
 
 | OPERATOR     | OPERATION |
@@ -393,10 +386,8 @@ public class Main{
 | Increment (++) | Increments a given value by 1 |
 | Decrement (--) | Decrements a given value by 1 |
 
-## How to work with Strings in Java 
-
+## How to work with Strings in Java
 ### How to Format a String
-
 You've already seen the usage of the `+` operator to sew strings together or format them in a specific way.
 
 A better way to fromat a string is the `String.format()` method.
@@ -427,7 +418,6 @@ A chart of the commonly used specifiers are as follows:
 | `%e`, `%E`   |  Scientific Notations |
 
 ### What Are the Different Ways of Inputting and Outputting Data?
-
 `System.out.println()` method
 
 `System.out.print()` method that prints out a given string without appending a newline character to it.
@@ -522,19 +512,15 @@ public static void exit(int status);
 > Any non-zero value as status code indicates unsuccessful termination.
 
 ## Package
-
 ### Built-in Package
-
 Built-in packages are existing java packages that come along with the JDK (`java.lang`, `java.util`, `java.io`, etc).
 
 ### User-defined Package
-
 To define a package in Java, you use the keyword `package`.
 
 ``` java
 package packageName;
 ```
-
 For example,
 
 ```
@@ -548,16 +534,13 @@ package com.starter
 ```
 
 ### Import packages
-
 Java has an `import` statement that allows you to import an entire package.
-
 ```java
 import package.name.ClassName;   // To import a certain class only
 import package.name.*   // To import the whole package
 ```
 
 Here is an example to import a package using the `import` statement.
-
 ```
 class MyClass implements java.util.Date {
     //body
@@ -565,15 +548,12 @@ class MyClass implements java.util.Date {
 ```
 
 ## Array
-
 ### Array length
 
 <p align="center"><img src="https://techblogstation.com/wp-content/uploads/2019/11/java-array-length_2.gif" height="100" weight="150"></p>
 
 ## String Handling
-
 ### Create String using literals vs new keyword
-
 - Creating strings using string literals,
 
 ``` java 
@@ -590,7 +570,6 @@ String myString = new String("Java Programming");
 Here, the value of the string is not directly provided. Hence, a new `Jav Programming` string is created even though `"Java Programming"` is already present inside the memory pool.
 
 ### Differentiate String == operator and equals() method
-
 We have used the `==` operator and `equals()` method to check if two strings are equal. Here,
 
 - `==` checks if the _reference_ to string objects are equal or not.
@@ -610,7 +589,7 @@ There are four access modifiers avaliable in Java, used to set access levels for
 - For __classes__, we can use either `public` or `default`
 - For __fields__, __methods__, __constructors__, we can use `public`, `private`, `default`, `protected`
 
-> [!NOTE]: 
+> [!NOTE]
 > - We cannot declare classes and interfaces private in Java. However, the nested classes can be declared private or static.
 > - We cannot declare classes or interfaces protected in Java.
 > - Methods, variables, classes, and so on are declared public
@@ -676,7 +655,6 @@ And since the String is also an object, under name, a reference points out to th
 <p align="center"> <img src="https://www.tutorialspoint.com/assets/questions/media/24811/diff_%20between_object%20_and%20_reference.jpg" /></p>
 
 ### `this` and `super` keyword
-
 ### Constructor
 > [!NOTE] 
 > A constructor cannot be `abstract` or `static` or `final`
