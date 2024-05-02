@@ -454,12 +454,18 @@ if (condition_1) {
 
 ### `for` loop
 
+```java
+for (statement 1; statement 2; statement 3) {
+	// code block to be executed
+}
+```
+
 ### `for-each` loop
 There is also a __"for-each"__ loop, which is used exclusively to loop through elements in arrays:
 
 ``` java
 for (type variable : arrayName) {
-  ...
+	// code block to be executed
 }
 ```
 
@@ -472,6 +478,12 @@ while(condition) {
 ```
 
 ### `do-while` loop
+
+```java
+do {
+	// code block to be executed
+} while (condition);
+```
 
 ``` java
 do {
