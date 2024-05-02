@@ -435,28 +435,43 @@ A chart of the commonly used specifiers are as follows:
 `System.out.printf()` method is kind of combination of the `System.out.print()` and `String.format()` methods.
 
 ## Conditional Statements
-
 ### `if-else` statements
-
 ``` java
 if (condition_1) {
-	// block of code to be executed if condition_1 is true
+	// statements to be executed if condition_1 is true
 } else if (condition_2) {
-	// block of code to be executed if the condition_1 is false and condition_2 is true
+	// statements to be executed if the condition_1 is false and condition_2 is true
 } else {
-	// block of code to be executed if the condition_1 is false and condition_2 is false
+	// statements to be executed if the condition_1 is false and condition_2 is false
+}
+```
+### Ternary Operator
+```java
+result = (condition) ? expression1 : expression2
+```
+### `switch-case` statements
+```java
+switch(expression) {
+  case value1:
+    // statements to be executed
+    break;
+  case value2:
+    // statements to be executed
+    break;
+
+	...
+
+  default:
+	// statements to be executed if all cases are not matched; 
 }
 ```
 
-### `switch-case` statements
-
 ## Iterative Statements
-
 ### `for` loop
 
 ```java
-for (statement 1; statement 2; statement 3) {
-	// code block to be executed
+for (initialization; condition; iteration) {
+	// statements to be executed
 }
 ```
 
@@ -465,7 +480,7 @@ There is also a __"for-each"__ loop, which is used exclusively to loop through e
 
 ``` java
 for (type variable : arrayName) {
-	// code block to be executed
+	// statements to be executed
 }
 ```
 
@@ -478,12 +493,6 @@ while(condition) {
 ```
 
 ### `do-while` loop
-
-```java
-do {
-	// code block to be executed
-} while (condition);
-```
 
 ``` java
 do {
