@@ -984,7 +984,12 @@ SortedSet<Data-Type> ts = new TreeSet<Data-Type>();
 ```
 
 ### Map Interface
-
+```java
+Map<Data-Type> hm = new HashMap<Data-Type>()
+Map<Data-Type> lm = new LinkedHashMap<Data-Type>()
+Map<Data-Type> ht = new HashTable<Data-Type>()
+Map<Data-Type> tm = new TreeMap<Data-Type>()
+```
 ## Rules for writing a Java Program
 
 - Java always uses higher CamelCase for writing class names and lower camelCase for writing method names. Variable names should always start with either an alphabet or an underscore(_). It can contain digits but not at starting. Use meaningful names for variables.
