@@ -985,10 +985,10 @@ SortedSet<Data-Type> ts = new TreeSet<Data-Type>();
 
 ### Map Interface
 ```java
-Map<Data-Type> hm = new HashMap<Data-Type>()
-Map<Data-Type> lm = new LinkedHashMap<Data-Type>()
-Map<Data-Type> ht = new HashTable<Data-Type>()
-Map<Data-Type> tm = new TreeMap<Data-Type>()
+Map<Data-Type-Key,Data-Type-Value> hm = new HashMap<Data-Type-Key,Data-Type-Value>()
+Map<Data-Type-Key,Data-Type-Value> lm = new LinkedHashMap<Data-Type-Key,Data-Type-Value>()
+Map<Data-Type-Key,Data-Type-Value> ht = new HashTable<Data-Type-Key,Data-Type-Value>()
+Map<Data-Type-Key,Data-Type-Value> tm = new TreeMap<Data-Type-Key,Data-Type-Value>()
 ```
 ## Rules for writing a Java Program
 
