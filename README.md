@@ -610,7 +610,7 @@ There are four access modifiers avaliable in Java, used to set access levels for
 - For __classes__, we can use either `public` or `default`
 - For __fields__, __methods__, __constructors__, we can use `public`, `private`, `default`, `protected`
 
-> __Note__: 
+> [!NOTE]: 
 > - We cannot declare classes and interfaces private in Java. However, the nested classes can be declared private or static.
 > - We cannot declare classes or interfaces protected in Java.
 > - Methods, variables, classes, and so on are declared public
@@ -618,8 +618,8 @@ There are four access modifiers avaliable in Java, used to set access levels for
 ### Non-access Modifiers
 There are five non-access modifiers available in Java, used to achieve many other functionalities.
 
-| MODIFIER    | DESCRIPTION |
-|--------------|:---------:|
+| MODIFIER     | DESCRIPTION 		      |
+|--------------|:-----------------------------|
 | `final`   |  Variable values can't be changed once assigned, methods can't be overriden, classes can't be inherited  |
 | `static`   |  The member belongs to the class, not to objects of that class  |
 | `abstract`   |  If applied to a method - has to be implemented in a subclass, if applied to a class - contains abstract methods  |
@@ -632,7 +632,6 @@ There are five non-access modifiers available in Java, used to achieve many othe
 - For __fields__, __methods__, we can use the `final`, `static`, `abstract`, `transient`, `synchronized`, `volatile`
   
 ## Object Oriented Programming Language
-
 ``` java
 [class_name] {
     // state or field
@@ -642,15 +641,12 @@ There are five non-access modifiers available in Java, used to achieve many othe
 ```
 
 ### Components in Class
-
 The fields (also known as variables or properties) of a class describe the state of its objects. 
 
 Methods (also known as functions) on the other hand describes the behavior.
 
 ### Diference between object and reference
-
 A class in a blue print/user defined datatype in java that describes the behavior/state that the object of its type support.
-
 ``` java
 public class Student {
 	String name = "Krishna";
@@ -682,8 +678,7 @@ And since the String is also an object, under name, a reference points out to th
 ### `this` and `super` keyword
 
 ### Constructor
-
-> __Note__: 
+> [!NOTE] 
 > A constructor cannot be `abstract` or `static` or `final`
 > A constructor be able to have `default` or `public` or `private` or `protected`
 > It is important to note that constructors in Java are not inherited. Hence, there is no such thing as constructor overriding in Java. However, We able to call the superclass constructor form the subclass constructor using `super()`. It's a special form of the `super` keyword
@@ -726,7 +721,6 @@ class Temp {
 ```
 
 #### Point to remember about constructor in Java class:
-
 - First and most important point is that, name of the constructor should be same as that of class name
 - And next important point is, constructor don’t have any return type unlike methods (not even void)
 - Every concrete class and abstract class has a constructor
@@ -746,7 +740,6 @@ class Temp {
 - Non-access modifier like static, final, synchronized, abstract, strictfp, transient, volatile are not allowed
 
 ### Abstract Class
-
 ### Interface
 - Like __abstract classes__, interfaces __cannot__ be used to create objects (in the example above, it is not possible to create an "Animal" object in the MyMainClass)
 - Interface methods do not have a body - the body is provided by the "implement" class
