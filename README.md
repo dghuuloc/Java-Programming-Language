@@ -637,9 +637,8 @@ There are five non-access modifiers available in Java, used to achieve many othe
 ```
 
 ### Components in Class
-The fields (also known as variables or properties) of a class describe the state of its objects. 
-
-Methods (also known as functions) on the other hand describes the behavior.
+- __Fields__ (also known as variables or properties) of a class describe the state of its objects. 
+- __Methods__ (also known as functions) on the other hand describes the behavior.
 
 ### Diference between object and reference
 A class in a blue print/user defined datatype in java that describes the behavior/state that the object of its type support.
