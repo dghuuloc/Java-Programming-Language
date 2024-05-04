@@ -122,38 +122,20 @@ In Java, there are two kinds of data types:
 
 The following table provides more description of each primitive data type.
 
-| PRIMITIVE TYPE    | STORAGE SIZE (byte) | STORAGE SIZE(bit) | RANGES |
-|-------------------|:-------------------:|:-----------------:|:------:|
-| `byte`  			|  `1 byte`  		  |  `8 bits`  | 8-bit signed integer within the range of -128 to 127 |
-| `short`   		|  `2 bytes`  		  |  `16 bits` | 16-bit signed integer within the range of -32,768 to 32,767 |
-| `int`   			|  `4 bytes`  		  |  `32 bits` | 32-bit signed integer within the range of -2147483648 to 2147483647 |
-| `long`       		|  `8 bytes`  		  |  `64 bits` | 64-bit signed integer within the range of -9223372036854775808 to 9223372036854775807 |
-| `float`       	|  `4 bytes`   		  |  `32 bits` | single-precision 32-bit floating point within the range of 1.4E-45 to 3.4028235E38 |
-| `double`     	 	|  `8 bytes`  		  |  `64 bits` | double-precision 64-bit floating point within the range of 4.9E-324 to 1.7976931348623157E308 |
-| `char`   			|  `2 bytes`  		  |  `16 bits` | single 16-bit Unicode character within the range of `\u0000` (or 0) to `\uffff` (or 65,535 inclusive) |
-| `boolean`   		|  `1 byte`  		  |     	   | It can be either `true` or `false` |
+| PRIMITIVE TYPE    | STORAGE SIZE (byte) | STORAGE SIZE(bit) | DEFAULT VALUE | RANGES                                            	|
+|-------------------|:-------------------:|:-----------------:|---------------|:--------------------------------------------------------|
+| `byte` 	    |  `1 byte`  	  |  `8 bits`  	      |	0	      | -128 to 127 						|
+| `short`   	    |  `2 bytes`  	  |  `16 bits`        | 0 	      | -32,768 to 32,767 					|
+| `int`   	    |  `4 bytes`  	  |  `32 bits`        | 0 	      | -2147483648 to 2147483647 				|
+| `long`       	    |  `8 bytes`  	  |  `64 bits`        | 0l/L	      | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
+| `float`           | `4 bytes`   	  |  `32 bits`        | 0.0f/F	      | 1.4E-45 to 3.4028235E38 				|
+| `double`     	    |  `8 bytes`  	  |  `64 bits`        | 0.0d/D	      | 4.9E-324 to 1.7976931348623157E308 			|
+| `char`   	    |  `2 bytes`  	  |  `16 bits`        | '\u0000'      | `\u0000` (or 0) to `\uffff` (or 65,535 inclusive) 	|
+| `boolean`   	    |  `1 byte`  	  |                   | false         | `true` or `false` 					|
 
 ### Non-primitive or reference data type
 - Non-primitive data types are the reference data types or user-created data types. All non-primitive data types are implemented using object concepts.Every variable of the non-primitive data type is an object. The non-primitive data types may use additional methods to perform certain operations. The default value of non-primitive data type variable is `null`.
 - In Java, examples of non-primitive data types are `String`, `Array`, `List`, `Queue`, `Stack`, `Class`, `Interface`
-
-### Default values of Java Data Types
-In Java, every variable has a default value, which is the value assigned to the variable if no explicit value is specified. The default value depends on the data type of the variable.
-- The default values for the primitive data types in Java are as follows:
-```java
-    byte aByte;				// aByte: 0
-    short aShort;			// aShort: 0
-    char aChar;				// aChar: '\u0000' 0
-    boolean aBoolean;		// aBoolean: false
-    int anInt;				// anInt: 0
-    long aLong;				// aLong: 0l
-    float aFloat;			// aFloat: 0.0f
-    double aDouble;			// aDouble: 0.0d
-```
-- The default values for the primitive data types in Java are `null`. For example:
-```java
-	String str;				// str: null
-```
 
 ## Type Conversion or Type Casting
 
