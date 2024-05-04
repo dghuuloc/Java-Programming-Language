@@ -134,11 +134,12 @@ The following table provides more description of each primitive data type.
 | `boolean`   	    |  `1 byte`  	  |                   | false         | `true` or `false` 					|
 
 ### Non-primitive or reference data type
-- Non-primitive data types are the reference data types or user-created data types. All non-primitive data types are implemented using object concepts.Every variable of the non-primitive data type is an object. The non-primitive data types may use additional methods to perform certain operations. The default value of non-primitive data type variable is `null`.
-- In Java, examples of non-primitive data types are `String`, `Array`, `List`, `Queue`, `Stack`, `Class`, `Interface`
+- Non-primitive data types are the reference data types or user-created data types. All non-primitive data types are implemented using object concepts.Every variable of the non-primitive data type is an object.
+- The non-primitive data types may use additional methods to perform certain operations. The default value of non-primitive data type variable is `null`.
+- Unlike primitive types, non-primitive data types can have methods and fields. For example, a `String` object has methods like `.length()`, `.subString()`, etc.
+- In Java, examples of non-primitive data types are `String`, `Array`, `Class`, `Interface`, `List`, `Queue`, `Stack`
 
 ## Type Conversion or Type Casting
-
 Type conversion in Java can be either `implicit` or `explicit`
 
 ### Widening Type Casting (automatically)
