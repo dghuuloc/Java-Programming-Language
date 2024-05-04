@@ -294,10 +294,10 @@ final int MIN_HEIGHT = 69;
 > - There are many different cases like __UPPERCASE, lowercase, camelCase, PascalCase, snake_case, SCREAMING_SNAKE_CASE, kebab-case__…etc.
 > - But we need to identify which case is dedicated to which variable.
 > - Usually, I follow,
->   	- classes — __PascalCase__
->   	- methods & variables — __camelCase__
->   	- constants — __SCREAMING_SNAKE_CASE__
->   	- DB-related fields — __snake_case__
+>   - classes — __PascalCase__
+>   - methods & variables — __camelCase__
+>   - constants — __SCREAMING_SNAKE_CASE__
+>   - DB-related fields — __snake_case__
 
 ## Varargs
 ### Syntax of Varargs
