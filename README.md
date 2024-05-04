@@ -282,6 +282,23 @@ In Java, we use the `final` modifier to declare a constant
 final int MIN_HEIGHT = 69;
 ```
 
+> [!NOTE]
+> ##### Use meaningful words for classes, methods, variables, and other fields
+> - Always use proper meaningful and searchable naming conventions with proper case.
+> - Usually, we use __nouns or short phrases__ when declaring classes, variables, and constants. Ex: String firstName, const isValid
+> - You can use __verbs and short phrases with adjectives__ for methods. Ex: readFile(), sendData()
+> - Avoid using __abbreviating variable__ names and __intention revealing names__. Ex: int i; String getExUsr;
+
+> [!NOTE]
+> ##### Use proper case for declarations
+> - There are many different cases like __UPPERCASE, lowercase, camelCase, PascalCase, snake_case, SCREAMING_SNAKE_CASE, kebab-case__…etc.
+> - But we need to identify which case is dedicated to which variable.
+> - Usually, I follow,
+>   	- classes — __PascalCase__
+>   	- methods & variables — __camelCase__
+>   	- constants — __SCREAMING_SNAKE_CASE__
+>   	- DB-related fields — __snake_case__
+
 ## Varargs
 ### Syntax of Varargs
 The syntax for implementing varargs in as follows:
@@ -290,7 +307,6 @@ accessModifier methodName(dataType... args) {
   // method body
 }
 ```
-
 > [!NOTE] 
 > - While defining method signature, always keep varargs at last
 > - A method can have only one varargs parameter
