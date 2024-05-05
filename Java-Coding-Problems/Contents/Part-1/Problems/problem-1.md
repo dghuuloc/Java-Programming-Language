@@ -12,7 +12,7 @@ SET ("address_first", "address_second", "phone") =
 	WHERE "public"."employee"."job_title" = ?
 ```
 ## Before JDK 8
-Probably the most common approach relies on straightforward concatenation via the well-known “+" operator. This way, we obtain a multiline string representation, as follows:
+Probably the most common approach relies on straightforward concatenation via the well-known `+` operator. This way, we obtain a multiline string representation, as follows:
 
 ```java
 String sql =
