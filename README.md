@@ -1174,3 +1174,7 @@ If your class provides more functionality rather than just running as Thread, yo
 - [Java Programming Library](https://www.programiz.com/java-programming/library)
 - [Access modifier](https://www.scientecheasy.com/2020/06/access-modifiers-in-java.html/)
 - [Point to remember about constructor in Java class](https://www.benchresources.net/java-constructor-with-example/)
+- [Java Variables](https://www.geeksforgeeks.org/variables-in-java/)
+- [Java Data Types And Variables – Explained for Beginners](https://www.freecodecamp.org/news/java-data-types-and-variables/)
+- [Java Variables: Declaration, Scope, and Naming Conventions](https://beginnersbook.com/2017/08/variables-in-java/)
+- [Instance vs Object vs Reference in Java with Example](https://www.masterincoding.com/instance-vs-object-vs-reference-in-java/)
